@@ -1,0 +1,32 @@
+*{
+    font-family: Montserrat,"Helvetica Neue",Verdana,"Helvetica CY","Nimbus Sans L",sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+#maindiv{
+border: 1px solid;
+width: 50%;
+height: 710px;
+background-color: #4fdcf9;
+}
+#card1>img{
+    margin: 45px auto auto 25px;
+    display: block;
+}
+#card1>a{
+    margin-left: 80%;
+    margin-top: 74px;
+    color: grey;
+}
+#yourcompany{
+    /* background-color: green; */
+    margin-top: 150px;
+    margin-left: 50px;
+    font-size: 50px;
+    color: white;
+}
+#sp1{
+    display: block;
+    margin-top: 40px;
+    background-color: yellow;
+}
