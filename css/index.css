@@ -10,7 +10,6 @@
     display: flex;
     align-items: center;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    
 }
 #logo{
     width: 200px;
@@ -49,13 +48,11 @@
     font-weight: bold;
     border: none;
     outline: none;
-   
-    
     background-color: #bdf300;
    
 }
 #navbar>div:last-child>p{
-    padding: 8px 12px;
+    padding: 8px 9px;
     font-size: 13px;
     font-weight: bold;
 
@@ -70,6 +67,50 @@
 #navbar>div:last-child>p>a{
     text-decoration: none;
 }
+#feature{
+    width: 70%;
+    height: 500px;
+    border: 1px solid red;
+    margin: auto;
+    margin-top: 30px;
+}
+#feature h1{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#feature_text{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+#feature_text p{
+    font-size: 15px;
+    font-weight: bold;
+    color:  #1f55eb;
+}
+#show_feature{
+    display: flex;
+}
+#show_feature div:first-child{
+    width: 40%;
+    height: 350px;
+    border: 1px solid red;
+}
+#show_feature div:last-child{
+    width: 60%;
+    height: auto;
+}
+#show_feature div li{
+    color:  black;
+    margin-bottom:10px ;
+    text-decoration-color:#1f55eb ;
+}
+
+
+
 
 /* ******* footer section********** */
 .container{
@@ -101,6 +142,7 @@ padding: 70px 0;;
 }
 .col ul li{
     margin-bottom: 19px;
+    font-size: 14px;
 }
 .col ul li a {
     text-decoration: none;
@@ -170,7 +212,7 @@ padding: 70px 0;;
    color:rgba(255, 255, 255, 0.795);
    font-size: 10px;
    font-weight: bold;
-   
+   margin-left: 20px;
 }
 #last>div:last-child i{
     color: white;
@@ -185,3 +227,31 @@ padding: 70px 0;;
     border-radius: 30px;
     padding-left: 20px;
 }
+
+
+/* ******press div css*********** */
+#press{
+  width: 100%;
+  height: 200px;
+ }
+#press p{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    color:rgba(0, 0, 0, 0.911); 
+}
+#press_img{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    /* margin-left: 20px; */
+}
+#line1{
+    width: 100%;
+    height: 1px;
+    background-color:rgba(138, 143, 125, 0.308);
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
