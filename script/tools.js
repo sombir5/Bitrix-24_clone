@@ -1,13 +1,12 @@
-
-import navbar from "../component/navbar.js"
+import navbar from "../component/navbar.js";
 document.getElementById('navbar').innerHTML=navbar();
 
-import footer from "../component/footer.js"
+import footer from "../component/footer.js";
 document.querySelector('.footer').innerHTML=footer();
+
 
 let element=document.querySelectorAll(".points")
 console.log(element)
-
 element.forEach(e => {
     e.addEventListener('click',function(){
         changeColor(this)
