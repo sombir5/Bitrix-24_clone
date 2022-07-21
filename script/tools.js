@@ -26,26 +26,7 @@ function changeColor(element){
             }
             }
 
-// element.forEach(e => {
-//     e.addEventListener('mouseover',function(){
-//         hover(this)
-//     });
-// });
 
-// function hover(element){
-//     console.log(element)
-//     clearHover();
-//     element.style.backgroundColor="#ddf0fdd4"
-//     }
-
-//     function clearHover(){  
-//         for(let i=0;i<element.length;i++){
-//         let items= element[i];
-//         items.style.backgroundColor ="#3baaf1";
-//         items.style.color ="white";
-//         // items.style.hover.backgroundColor="#ddf0fdd4"
-//         }
-//         }
 
 let signuppage=document.querySelectorAll('.free');
 
@@ -55,9 +36,3 @@ signuppage.forEach(e => {
         window.location.href="./signup.html"
     });
 });
-// function changeColor(element){
-//     clear();
-//     console.log(element)
-//     element.style.backgroundColor ="white";
-//     element.style.color ="black";
-// }
