@@ -164,7 +164,7 @@
 }
 
 #mid3A p {
-  width: 50%;
+  width: 80%;
   padding-left: 140px;
   padding-top: 10px;
   margin-left: 80px;
@@ -182,6 +182,7 @@ h3 {
   font-weight: lighter;
   padding-left: 140px;
   padding-left: 200px;
+  margin-top:5px;
 
 }
 
@@ -193,6 +194,7 @@ h3 {
   background-color: blue;
   color: white;
   border: transparent;
+  margin-top: 30px;
 }
 
 #btn2 {
@@ -202,6 +204,8 @@ h3 {
   gap: 15px;
   margin-right:90px;
   margin-bottom: 100px;
+  margin-top: 20px;
+  width:60% ;
   
 }
   
