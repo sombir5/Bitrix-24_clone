@@ -47,26 +47,33 @@ h1 {
 #flag {
   background-color: #3baaf1;
   margin-top: 2px;
-  height: 70px;
+  height: 100px;
   display: flex;
   align-items: center;
 }
 #flag > div {
   width: 80%;
-  margin-left: 120px;
-}
-#flag > div > div {
-  display: flex;
-  align-items: center;
-}
-#flag > div > div > div {
-  margin: 10px 100px;
-  color: white;
+  height: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
   /* border: 1px solid; */
 }
-#flag > div > div > div:last-child {
-  margin-left: -40px;
-  margin-right: -40px;
+#flag > div > div { 
+ 
+  height: 100px;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+#flag > div > div > div {
+  color: white;
+  height: 100px;
+  width: 250px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
 }
 /* ----------------------------------------------- */
 #exploreFlag{
@@ -79,14 +86,11 @@ margin-top: 50px;
 .sub-head{
   margin-bottom: 25px;
 }
-/* .eachflag{
-  border: 1px solid;
-} */
 .eachflag>div{
   /* border: 1px solid; */
   margin: auto;
-  margin-left: 200px;
-  margin-right: 160px;
+  margin-left: 100px;
+  /* margin-right: -60px; */
   display: flex;
   padding-bottom: 50px;
 }
@@ -95,20 +99,26 @@ margin-top: 50px;
   padding-top:30px;
   width: 500px;
   line-height: 30px;
+  margin-right: 30px;
 }
 .flag-left>h4{
   margin-bottom: 15px;
   margin-top: 15px;
 }
 .flag-gif{
-  margin-left: 50px;
+  margin-left: 100px;
+  /* padding-left: 50px; */
   /* border: 1px solid; */
   height: 450px;
   width: 700px;
 }
 .flag-gif>img{
-  height: 470px;
-  width: 600px;
+  margin: auto;
+  /* padding-left: 50px; */
+  display: block;
+  height: 400px;
+  width: 700px;
+  /* border: 1px solid; */
 }
 .head{
   text-align: center;
@@ -167,10 +177,9 @@ margin-top: 50px;
 }
 /* ----------------------------------------------- */
 #aboveFooter{
-  border: 1px solid;
+  /* border: 1px solid; */
   text-align: center;
   padding-bottom: 50px;
-  margin-bottom: 100px;
 }
 #register{
   margin: auto;
