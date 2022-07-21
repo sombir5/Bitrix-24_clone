@@ -24,9 +24,27 @@ background-color: #4fdcf9;
     margin-left: 50px;
     font-size: 50px;
     color: white;
+    /* border: 1px solid; */
+   
 }
+
 #sp1{
+    /* background-color: grey; */
+    /* border: 1px solid; */
+    text-align: center;
+    display: inline-block;
+    margin: 50px auto auto 45px;
+    font-size: 25px;
+    /* width: 45%; */
+    color: white;
+}
+
+#lang{
+    /* background-color: green; */
     display: block;
-    margin-top: 40px;
-    background-color: yellow;
+    margin-top: 250px;
+    display: flex;
+    justify-content: end;
+    margin-right: 35px;
+    background-color: transparent;
 }
