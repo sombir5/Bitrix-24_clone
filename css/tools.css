@@ -3,7 +3,8 @@
   padding: 0;
   font-family: Montserrat, "Helvetica Neue", Verdana, "Helvetica CY",
     "Nimbus Sans L", sans-serif;
-    text-decoration: none;
+}
+#navbar {
 }
 #main {
   background-color: #3baaf1;
@@ -45,8 +46,6 @@ h1 {
 /* ---------------------------------------- */
 #flag {
   background-color: #3baaf1;
-  position: sticky;
-  top: 75px;
   margin-top: 2px;
   height: 100px;
   display: flex;
@@ -54,12 +53,14 @@ h1 {
 }
 #flag > div {
   width: 80%;
-  margin-left: 120px;
-  
-}
-#flag > div > div {
   height: 100px;
-  /* width: 150px; */
+  margin-left: 200px;
+  margin-right: 200px;
+  /* border: 1px solid; */
+}
+#flag > div > div { 
+ 
+  height: 100px;
   display: flex;
   align-items: center;
   /* justify-content: space-between; */
@@ -68,9 +69,11 @@ h1 {
   color: white;
   height: 100px;
   width: 250px;
+  margin: auto;
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 /* ----------------------------------------------- */
 #exploreFlag{
@@ -91,7 +94,6 @@ margin-top: 50px;
   display: flex;
   padding-bottom: 50px;
 }
-
 .flag-left{
   /* border: 2px solid blue; */
   padding-top:30px;
@@ -124,18 +126,6 @@ margin-top: 50px;
 .sub-head{
   text-align: center;
 }
-.points>a:link{
-  color: white;
-}
-.points>a:visited{
-  color: white;
-  text-decoration: none;
-}
-.points>a:active{
-  color: black;
-  text-decoration: none;
-}
-
 /* ------------------------------------------------------------- */
 .features{
   padding-top: 20px;
@@ -176,8 +166,7 @@ margin-top: 50px;
   color: white;
   display: flex;
   justify-content: center;
-  align-items: center; 
-  cursor: pointer; 
+  align-items: center;  
 }
 .free{
   background-color: #bdf300;
@@ -188,9 +177,9 @@ margin-top: 50px;
 }
 /* ----------------------------------------------- */
 #aboveFooter{
+  /* border: 1px solid; */
   text-align: center;
   padding-bottom: 50px;
-  margin-bottom:100px;
 }
 #register{
   margin: auto;
