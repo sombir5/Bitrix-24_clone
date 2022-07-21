@@ -4,8 +4,8 @@
   font-family: Montserrat, "Helvetica Neue", Verdana, "Helvetica CY",
     "Nimbus Sans L", sans-serif;
 }
-#navbar {
-}
+/* #navbar {
+} */
 #main {
   background-color: #3baaf1;
   padding-top: 40px;
@@ -47,26 +47,29 @@ h1 {
 #flag {
   background-color: #3baaf1;
   margin-top: 2px;
-  height: 70px;
+  height: 100px;
   display: flex;
   align-items: center;
 }
 #flag > div {
   width: 80%;
   margin-left: 120px;
+  
 }
 #flag > div > div {
+  height: 100px;
+  /* width: 150px; */
   display: flex;
   align-items: center;
 }
 #flag > div > div > div {
-  margin: 10px 100px;
   color: white;
-  /* border: 1px solid; */
-}
-#flag > div > div > div:last-child {
-  margin-left: -40px;
-  margin-right: -40px;
+  height: 100px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
 }
 /* ----------------------------------------------- */
 #exploreFlag{
@@ -167,7 +170,6 @@ margin-top: 50px;
 }
 /* ----------------------------------------------- */
 #aboveFooter{
-  border: 1px solid;
   text-align: center;
   padding-bottom: 50px;
   margin-bottom: 100px;
