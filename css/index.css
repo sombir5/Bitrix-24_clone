@@ -94,13 +94,17 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
-    
+    cursor: pointer;
 }
 #feature_text p{
     font-size: 15px;
     font-weight: bold;
     color:  #1f55eb;
     
+}
+#feature_text p:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
 }
 #line2{
     width: 100%;
@@ -146,7 +150,7 @@
     margin-top:10px ;
     list-style: none;
     font-size: 15px;
-    /* font-weight: bold; */
+    cursor: pointer;
 }
 #show_feature div li::before {
     content: "\2022";
@@ -159,6 +163,28 @@
     width: 100%;
     height: 85px;
     background-color: #54B3FC;
+}
+#last_text{
+    font-size: 27px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.808);
+    margin-bottom: 20px;
+}
+ #btn1 {
+    
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #bdf300;
+    margin: auto;
+    margin-bottom: 30px;
+    display: block;
+}
+#btn1 a{
+    text-decoration: none;
 }
 
 
@@ -309,16 +335,48 @@ padding: 70px 0;;
 #premises{
     width: 70%;
     height: 350px;
-    border: 1px solid red;
+   
     margin: auto;
     display: flex;
 }
 #premises div:first-child{
-    border: 1px solid red;
+    
     width: 50%;
     height: 100%;
 }
 #premises div p:first-child{
-    font-size: 22px;
-    line-height-step: 20px;
+    font-size: 25px;
+    margin-top: 15px;
+    color: rgba(0, 0, 0, 0.842);
+    
+   }
+ #premises div p:nth-child(2){
+    color:rgba(0, 0, 0, 0.829);
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 28px;
+    text-align: justify;
+    
+    line-height: 25px;
+    }
+ #premises div button{
+    color: #1f7eeb;
+    font-size: 12px;
+    padding: 12px 20px;
+    margin: 20px 20px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #1f7eeb;
+    border-radius: 20px;
+ }
+ #premises div:last-child{
+   
+    width: 50%;
+    height: 100%;
+}
+#premises div:last-child img {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
 }
