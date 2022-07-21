@@ -46,4 +46,5 @@ background-color: #4fdcf9;
     display: flex;
     justify-content: end;
     margin-right: 35px;
+    background-color: transparent;
 }
