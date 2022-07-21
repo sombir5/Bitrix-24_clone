@@ -3,9 +3,8 @@
   padding: 0;
   font-family: Montserrat, "Helvetica Neue", Verdana, "Helvetica CY",
     "Nimbus Sans L", sans-serif;
+    text-decoration: none;
 }
-/* #navbar {
-} */
 #main {
   background-color: #3baaf1;
   padding-top: 40px;
@@ -46,6 +45,8 @@ h1 {
 /* ---------------------------------------- */
 #flag {
   background-color: #3baaf1;
+  position: sticky;
+  top: 75px;
   margin-top: 2px;
   height: 100px;
   display: flex;
@@ -93,6 +94,7 @@ margin-top: 50px;
   display: flex;
   padding-bottom: 50px;
 }
+
 .flag-left{
   /* border: 2px solid blue; */
   padding-top:30px;
@@ -119,6 +121,18 @@ margin-top: 50px;
 .sub-head{
   text-align: center;
 }
+.points>a:link{
+  color: white;
+}
+.points>a:visited{
+  color: white;
+  text-decoration: none;
+}
+.points>a:active{
+  color: black;
+  text-decoration: none;
+}
+
 /* ------------------------------------------------------------- */
 .features{
   padding-top: 20px;
@@ -159,7 +173,8 @@ margin-top: 50px;
   color: white;
   display: flex;
   justify-content: center;
-  align-items: center;  
+  align-items: center; 
+  cursor: pointer; 
 }
 .free{
   background-color: #bdf300;
