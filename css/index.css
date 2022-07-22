@@ -163,6 +163,14 @@
     width: 100%;
     height: 85px;
     background-color: #54B3FC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+#box2>p{
+   padding: 0 20px;
+   color: rgba(255, 255, 255, 0.911);
+   font-weight: bold;
 }
 #last_text{
     font-size: 27px;
