@@ -64,7 +64,7 @@
 .courseType {
   background-color: #e4f3a5;
   margin: auto;
-  padding: 0 10px;
+  padding: 0 5px;
   padding-top: 20px;
   display: block;
   text-align: center;
@@ -75,6 +75,7 @@
 }
 .courseType > p {
   font-size: 11px;
+  color:#9eaaad;
   padding-top: 15px;
 }
 .users {
@@ -84,6 +85,8 @@
   justify-content: center;
   align-items: center;
   padding-top: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 .flameflex {
   display: flex;
@@ -103,11 +106,12 @@
   margin-top: 30px;
   text-align: center;
   color: #7c9b00;
+  font: 18px;
 }
 .payment {
   background-color: #a3cd00;
   margin: auto;
-  width: 50%;
+  width: 60%;
   height: 45px;
   border-radius: 25px;
   display: flex;
@@ -115,8 +119,8 @@
   align-items: center;
   font-size: 15px;
   color: white;
-  margin-top: 60px;
-  font-weight: 600;
+  margin-top: 100px;
+  font-weight: 550;
 }
 .data {
   text-align: center;
@@ -131,4 +135,77 @@
   height: 2px;
   width: 70%;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
+.price{
+  color:#9eaaad;
+  font-size:13px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 550;
+  text-align: center;
+  text-decoration: line-through;
+}
+.alluser{
+  color: #016abe;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 550;
+  margin-bottom: -20px;
+  margin-top: 5px;
+  text-decoration:underline;
+  text-decoration-style: dashed;
+}
+.blue{
+  color: #016abe;
+  font-size: 18px;
+  text-align: center;
+}
+span{
+background-color: #e4f3a5;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.bluehead{
+  background-color: #caf0fc;
+}
+.userblue{
+  background-color: #e7f9ff;
+}
+.bluepayment{
+  background-color: #21bdee;
+}
+.hrlineblue{
+  background-color: #21bdee;
+  margin-bottom: 30px;
+}
+.list>li{
+  padding-left: 50px;
+  /* border:1px solid; */
+  color:#9eaaad;
+  font-size: 12px;
+  line-height: 25px;
+  font-weight: 500;
+}
+.collab{
+  padding-left: 30px; 
+  margin-top: 10px;
+  font-weight: 550;
+}
+.collab:hover,.list>li:hover{
+  background-color: #21bdee ;
+  border-radius: 15px;
+  
+
+}
+.greenhover:hover{
+  background-color: #e4f3a5 ;
+  border-radius: 15px;
+}
+.greenlist>li:hover{
+  background-color: #e4f3a5 ;
+  border-radius: 15px;
+}
+
