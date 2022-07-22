@@ -7,6 +7,6 @@ document.querySelector('.footer').innerHTML=footer();
 let element= document.querySelectorAll('.bluepayment');
 element.forEach(e => {
     e.addEventListener('click',function(){
-        window.location.href="./bill.html"
+        window.location.href="./basic.html"
     });
 });
