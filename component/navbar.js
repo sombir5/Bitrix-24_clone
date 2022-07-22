@@ -7,7 +7,7 @@ function navbar(){
   </div>
   <div>
     <ul>
-      <li><a href="#">TOOLS</a></li>
+      <li><a href="./tools.html">TOOLS</a></li>
       <li><a href="#">PRICING</a></li>
       <li><a href="#">SOLUTION</a></li>
       <li><a href="#">PARTENERS</a></li>
