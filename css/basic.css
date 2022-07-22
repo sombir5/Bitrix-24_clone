@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, "Helvetica Neue", Verdana, "Helvetica CY",
+      "Nimbus Sans L", sans-serif;
+  }
+  #header {
+    background-color: #38b0f2;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 150px;
+  }
+  #header > div {
+    margin-left: 150px;
+    font-size: 45px;
+    color: white;
+  }
+  #details{
+    margin: 30px 0;
+  }
+  .billdetails{
+    border: 1px solid;
+    margin: auto;
+    width: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .time{
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #basic{
+   
+  }
+  .time+div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid;
+    width: 50%;
+  }
+  
