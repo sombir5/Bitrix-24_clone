@@ -51,6 +51,7 @@
   justify-content: center;
   align-items: center;
 }
+
 /* ------------------------------ */
 #columns {
   margin-top: 30px;
@@ -75,7 +76,7 @@
 }
 .courseType > p {
   font-size: 11px;
-  color:#9eaaad;
+  color: #9eaaad;
   padding-top: 15px;
 }
 .users {
@@ -85,6 +86,7 @@
   justify-content: center;
   align-items: center;
   padding-top: 20px;
+  /* border: 1px solid; */
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
 }
@@ -137,75 +139,112 @@
   margin-top: 30px;
   margin-bottom: 30px;
 }
-.price{
-  color:#9eaaad;
-  font-size:13px;
+.price {
+  color: #9eaaad;
+  font-size: 13px;
   padding-top: 10px;
   padding-bottom: 10px;
   font-weight: 550;
   text-align: center;
   text-decoration: line-through;
 }
-.alluser{
+.alluser {
   color: #016abe;
   text-align: center;
   font-size: 13px;
   font-weight: 550;
   margin-bottom: -20px;
   margin-top: 5px;
-  text-decoration:underline;
+  text-decoration: underline;
   text-decoration-style: dashed;
 }
-.blue{
+.blue {
   color: #016abe;
   font-size: 18px;
   text-align: center;
 }
-span{
-background-color: #e4f3a5;
+span {
+  background-color: #e4f3a5;
 }
-a{
+a {
   text-decoration: none;
   color: white;
 }
-.bluehead{
+.bluehead {
   background-color: #caf0fc;
 }
-.userblue{
+.userblue {
   background-color: #e7f9ff;
 }
-.bluepayment{
+.bluepayment {
   background-color: #21bdee;
 }
-.hrlineblue{
+.hrlineblue {
   background-color: #21bdee;
   margin-bottom: 30px;
 }
-.list>li{
+.list > li {
   padding-left: 50px;
   /* border:1px solid; */
-  color:#9eaaad;
+  color: #9eaaad;
   font-size: 12px;
   line-height: 25px;
   font-weight: 500;
 }
-.collab{
-  padding-left: 30px; 
+.collab {
+  padding-left: 30px;
   margin-top: 10px;
   font-weight: 550;
 }
-.collab:hover,.list>li:hover{
-  background-color: #21bdee ;
+.collab:hover,
+.list > li:hover {
+  background-color: #21bdee;
   border-radius: 15px;
-  
+}
+.greenhover:hover {
+  background-color: #e4f3a5;
+  border-radius: 15px;
+}
+.greenlist > li:hover {
+  background-color: #e4f3a5;
+  border-radius: 15px;
+}
 
+#renew > div {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
-.greenhover:hover{
-  background-color: #e4f3a5 ;
+.archived {
+  border: 3px solid #84dcf8;
+  height: 50px;
+  width: 170px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#plans > a {
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  color: #4a74b5;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+#save {
+  margin-top: 35px;
+  margin-bottom: 60px;
+}
+#save > div {
+  background-color: #21bdee;
+  margin: auto;
+  width: 25%;
+  height: 40px;
   border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.greenlist>li:hover{
-  background-color: #e4f3a5 ;
-  border-radius: 15px;
-}
-
