@@ -34,6 +34,7 @@
   height: 50px;
   border: 3px solid #84dcf8;
   border-radius: 25px;
+  padding: 0 25px;
 }
 #subhead > div:nth-child(2) {
   display: flex;
@@ -123,6 +124,7 @@
   color: white;
   margin-top: 100px;
   font-weight: 550;
+  cursor: pointer;
 }
 .data {
   text-align: center;
@@ -166,7 +168,7 @@
 span {
   background-color: #e4f3a5;
 }
-a {
+.payment>a {
   text-decoration: none;
   color: white;
 }
@@ -247,4 +249,9 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#save > div>a{
+  text-decoration: none;
+  color: white;
 }
