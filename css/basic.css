@@ -18,29 +18,75 @@
   }
   #details{
     margin: 30px 0;
+    display: grid;
+    row-gap: 30px;
   }
   .billdetails{
-    border: 1px solid;
     margin: auto;
-    width: 50%; 
+    width: 60%; 
+    font-size: 25px;
     display: flex;
-    justify-content: center;
     align-items: center;
-  }
-  .time{
-    border: 1px solid;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  #basic{
-   
-  }
-  .time+div{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 1px solid;
-    width: 50%;
-  }
+
+}
+#timedetail{
+  margin-left: 0;
+}
+#basic{
+  margin-left: 50%;
+}
+.bill{
+  margin: auto;
+  width: 60%; 
+  display: flex;
+  align-items: center;
+
+}
+.time{
+  width: 15%;
+}
+.combineprice{
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+}
+.costprice>h4{
+  width: 200px;
+}
+.buy{
+  margin-left: 100%;
+  background-color: #bdf300;
+border-radius: 10px;
+color: white;
+font-size: 12px;
+padding: 3px 10px;
+text-decoration: none;
+cursor: pointer;
+}
+p{
+  font-size: 12px;
+}
+h4{
+  font-size: 20px;
+  font-weight: 500;
+  color: #38b0f2;
+}
+.specialcost{
+  display:flex;
+  justify-content: space-evenly;
+}
+.pricethrough{
+  width: 100px;
+  text-decoration: line-through;
+}
+.bbuy{
+  margin-left: 30%;
+}
+#pprice{
+  margin-left: 180px;
+}
+
+
   
