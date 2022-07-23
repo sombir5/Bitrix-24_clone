@@ -1,269 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, "Helvetica Neue", Verdana, "Helvetica CY", "Nimbus Sans L", sans-serif;
+    ;
+}
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Montserrat, "Helvetica Neue", Verdana, "Helvetica CY", "Nimbus Sans L", sans-serif;
-            ;
-        }
+#top {
+    display: flex;
+    margin: auto;
+    gap: 10%;
+}
 
-        #top {
-            display: flex;
-            margin: auto;
-            gap: 10%;
-        }
+#top #t1 h2 {
+    color: blue;
+    font-size: 28px;
+    width: 270%;
+    margin-top: 20px;
+}
 
-        #top #t1 h2 {
-            color: blue;
-            font-size: 28px;
-            width: 270%;
-            margin-top: 20px;
-        }
+#top #t1 {
+    margin-left: 260px;
+    margin-top: 30px;
+}
 
-        #top #t1 {
-            margin-left: 260px;
-            margin-top: 30px;
-        }
+#top #t1 button {
+    width: 90%;
+    height: 45px;
+    border-radius: 10px;
+    border: transparent;
+    background-color: rgb(36, 173, 228);
+    color: white;
+    font-size: 16px;
+}
 
-        #top #t1 button {
-            width: 90%;
-            height: 45px;
-            border-radius: 10px;
-            border: transparent;
-            background-color: rgb(36, 173, 228);
-            color: white;
-            font-size: 16px;
-        }
+#top #t2 {
+    margin-left: 280px;
+    margin-top: 30px;
 
-        #top #t2 {
-            margin-left: 280px;
-            margin-top: 30px;
+}
 
-        }
+#top #t2 button {
+    width: 120%;
+    height: 40px;
+    border-radius: 10px;
+    border: transparent;
+    background-color: yellowgreen;
+    color: white;
+    font-size: 14px;
+}
 
-        #top #t2 button {
-            width: 120%;
-            height: 40px;
-            border-radius: 10px;
-            border: transparent;
-            background-color: yellowgreen;
-            color: white;
-            font-size: 14px;
-        }
+#icon {
+    display: flex;
+    margin-left: 260px;
+    margin-top: 40px;
+}
 
-        #icon {
-            display: flex;
-            margin-left: 260px;
-            margin-top: 40px;
-        }
+#icon {
+    gap: 35px;
+    /* border-radius:100% ; */
+}
 
-        #icon {
-            gap: 35px;
-            /* border-radius:100% ; */
-        }
+#face button {
+    border-radius: 100%;
+    width: 190%;
+    height: 40px;
+    font-size: 35px;
+    font-weight: bolder;
+    color: rgb(36, 173, 228);
+    border-color: rgb(36, 173, 228);
+}
 
-        #face button {
-            border-radius: 100%;
-            width: 190%;
-            height: 40px;
-            font-size: 35px;
-            font-weight: bolder;
-            color: rgb(36, 173, 228);
-            border-color: rgb(36, 173, 228);
-        }
+#link button {
+    border-radius: 100%;
+    width: 120%;
+    height: 40px;
+    font-size: 25px;
+    font-weight: 200px;
+    color: rgb(36, 173, 228);
+    border-color: rgb(36, 173, 228);
+}
 
-        #link button {
-            border-radius: 100%;
-            width: 120%;
-            height: 40px;
-            font-size: 25px;
-            font-weight: 200px;
-            color: rgb(36, 173, 228);
-            border-color: rgb(36, 173, 228);
-        }
+#pic img {
+    margin-top: 50px;
+    width: 68%;
+    margin-left: 260px;
+    height: 400px;
+}
 
-        #pic img {
-            margin-top: 50px;
-            width: 68%;
-            margin-left: 260px;
-            height: 400px;
-        }
+.blog {
+    /* border: 1px solid red; */
+    margin-left: 260px;
+    margin-top: 70px;
+    width: 65px;
+    height: 65px;
+    background-color: #00aeef;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    margin-right: 10px;
+    background-image: "https://upload.wikimedia.org/wikipedia/commons/e/e7/Bitrix24_Logo.png?20211007180416";
+}
 
-        .blog {
-            /* border: 1px solid red; */
-            margin-left: 260px;
-            margin-top: 70px;
-            width: 65px;
-            height: 65px;
-            background-color: #00aeef;
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            border-radius: 100%;
-            margin-right: 10px;
-            background-image: "https://upload.wikimedia.org/wikipedia/commons/e/e7/Bitrix24_Logo.png?20211007180416";
-        }
+.blog img {
+    width: 70%;
+    margin-left: 10px;
+    margin-top: 15px;
 
-        .blog img {
-            width: 70%;
-            margin-left: 10px;
-            margin-top: 15px;
+}
 
-        }
+#Tblog {
+    display: flex;
+}
 
-        #Tblog {
-            display: flex;
-        }
+#Tblog h2 {
+    margin-top: 76px;
+    color: rgb(36, 173, 228);
+    font-size: medium;
+}
 
-        #Tblog h2 {
-            margin-top: 76px;
-            color: rgb(36, 173, 228);
-            font-size: medium;
-        }
+#Tblog p {
+    color: rgb(36, 173, 228);
+    font-size: 14px;
+}
 
-        #Tblog p {
-            color: rgb(36, 173, 228);
-            font-size: 14px;
-        }
+#text {
+    margin-top: 30px;
+}
 
-        #text {
-            margin-top: 30px;
-        }
+#txt1 p {
+    margin-left: 260px;
+    width: 72%;
+    line-height: 30px;
+    font-size: 18px;
+    color: grey;
+    font-weight: lighter;
+}
 
-        #txt1 p {
-            margin-left: 260px;
-            width: 72%;
-            line-height: 30px;
-            font-size: 18px;
-            color: grey;
-            font-weight: lighter;
-        }
+#txt2 p {
+    margin-left: 260px;
+    width: 57%;
+    line-height: 30px;
+    font-size: 18px;
+    color: grey;
+    font-weight: lighter;
+}
 
-        #txt2 p {
-            margin-left: 260px;
-            width: 57%;
-            line-height: 30px;
-            font-size: 18px;
-            color: grey;
-            font-weight: lighter;
-        }
+#listpage {
+    margin-left: 260px;
+    margin-top: 20px;
+    line-height: 35px;
+    font-size: 20px;
+    color: rgb(36, 173, 228);
+    font-weight: lighter;
+}
 
-        #listpage {
-            margin-left: 260px;
-            margin-top: 20px;
-            line-height: 35px;
-            font-size: 20px;
-            color: rgb(36, 173, 228);
-            font-weight: lighter;
-        }
 
-        #bigbox {
-            width: 100%;
-            height: 300px;
-            background-color: rgb(36, 173, 228);
-            margin-top: 40px;
-        }
+#listpage>li::before {
+    color: black;
+    content: "\2022";
+    display: inline-block;
+    width: 1em;
+    margin-left: 5px;
 
-        #box h2 {
-            text-align: center;
-            margin-top: 45px;
-            font-size: 30px;
-            color: white;
-            padding-top: 40px;
-        }
+}
+iframe{
+    margin-left: 250px;
+    margin-top: 10px;
+}
 
-        #box p {
-            text-align: center;
-            margin-top: 25px;
-            width: 50%;
-            margin-left: 295px;
-            line-height: 30px;
-            font-size: 18px;
-            color: white;
-        }
+#bigbox {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(36, 173, 228);
+    margin-top: 40px;
+}
 
-        #box button {
-            margin-left: 595px;
-            margin-top: 20px;
-            width: 12%;
-            height: 40px;
-            border-radius: 22px;
-            background-color: yellowgreen;
-            color: white;
-            border: transparent;
-        }
+#box h2 {
+    text-align: center;
+    margin-top: 45px;
+    font-size: 30px;
+    color: white;
+    padding-top: 40px;
+}
 
-        .blog1 {
-            color: #adb5bd;
-            font-size: .875rem;
-            font-weight: 500;
-            line-height: 1.8;
-            margin-bottom: 45px;
-            padding-bottom: 26px;
-            border-bottom: 1px solid #ced4da;
-        }
+#box p {
+    text-align: center;
+    margin-top: 25px;
+    width: 50%;
+    margin-left: 295px;
+    line-height: 30px;
+    font-size: 18px;
+    color: white;
+}
 
-        .blog1 {
-            margin-top: 40px;
-            margin-left:260px ;
-            width:60% ;
-        }
-        #last{
-            display: grid;
-            grid-template-columns: repeat(2,1fr);
-            grid-template-rows: repeat(2,1fr);
-            margin: auto;
-            gap: 15px;
-            margin-left: 260px;
-        }
-        #g1 h4{
-          margin-top: 20px;
-          font-size:18px ;
-          color: rgb(36, 173, 228);
-        }
-        #g1 p{
-            margin-top: 20px;
-          font-size:20px ;
-          color:grey ;
+#box button {
+    margin-left: 595px;
+    margin-top: 20px;
+    width: 12%;
+    height: 40px;
+    border-radius: 22px;
+    background-color: yellowgreen;
+    color: white;
+    border: transparent;
+}
 
-        }
+.blog1 {
+    color: #adb5bd;
+    font-size: .875rem;
+    font-weight: 500;
+    line-height: 1.8;
+    margin-bottom: 45px;
+    padding-bottom: 26px;
+    border-bottom: 1px solid #ced4da;
+}
 
-        #g2 h4{
-          margin-top: 20px;
-          font-size:18px ;
-          color: rgb(36, 173, 228);
-        }
-        #g2 p{
-            margin-top: 20px;
-          font-size:20px ;
-          color:grey ;
+.blog1 {
+    margin-top: 40px;
+    margin-left: 260px;
+    width: 60%;
+}
 
-        }
+#last {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin: auto;
+    gap: 15px;
+    margin-left: 260px;
+}
 
-        #g3 h4{
-          margin-top: 20px;
-          font-size:18px ;
-          color: rgb(36, 173, 228);
-        }
-        #g3 p{
-            margin-top: 20px;
-          font-size:20px ;
-          color:grey ;
+#g1 h4 {
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(36, 173, 228);
+}
 
-        }
+#g1 p {
+    margin-top: 20px;
+    font-size: 20px;
+    color: grey;
 
-        #g4 h4{
-          margin-top: 20px;
-          font-size:18px ;
-          color: rgb(36, 173, 228);
-        }
-        #g4 p{
-            margin-top: 20px;
-          font-size:20px ;
-          color:grey ;
+}
 
-        }
-        .footer{
-            margin-top:110px ;
-        }
-    
+#g2 h4 {
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(36, 173, 228);
+}
+
+#g2 p {
+    margin-top: 20px;
+    font-size: 20px;
+    color: grey;
+
+}
+
+#g3 h4 {
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(36, 173, 228);
+}
+
+#g3 p {
+    margin-top: 20px;
+    font-size: 20px;
+    color: grey;
+
+}
+
+#g4 h4 {
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(36, 173, 228);
+}
+
+#g4 p {
+    margin-top: 20px;
+    font-size: 20px;
+    color: grey;
+
+}
+
+.footer {
+    margin-top: 110px;
+}
