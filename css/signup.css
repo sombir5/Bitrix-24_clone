@@ -164,7 +164,7 @@
     width: 60%;
     margin: 15px auto;
 }
-#registr{
+#registr,#logbtn{
     height: 50px;
     width: 25%;
     border-radius: 40px;

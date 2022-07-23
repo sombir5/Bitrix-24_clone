@@ -163,7 +163,7 @@
       width: 60%;
       margin: 15px auto;
   }
-  #registr{
+  #registr,#signbtn{
       height: 50px;
       width: 25%;
       border-radius: 40px;
