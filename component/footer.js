@@ -5,7 +5,7 @@ function footer(){
         <h4>BITRIX</h4>
         <ul>
           <li><a href="#">Bitrix24</a></li>
-          <li><a href="#">Pricing</a></li>
+          <li><a href="./pricing.html">Pricing</a></li>
           <li><a href="#">Media Kit</a></li>
           <li><a href="#">Contact us</a></li>
           <li><a href="#">In the press</a></li>
@@ -25,7 +25,7 @@ function footer(){
       <div class="col">
         <h4>RESOURCES</h4>
         <ul>
-          <li><a href="#">Blog</a></li>
+          <li><a href="./Blog.html">Blog</a></li>
           <li><a href="#">Solution</a></li>
           <li><a href="#">Testimonials</a></li>
           <li><a href="#">Alternatives</a></li>
@@ -91,11 +91,11 @@ function footer(){
         <p>Copyright &#169; 2022 Bitrix24</p>
       </div>
       <div id="icon">
-        <i class="fa-brands fa-facebook-f"></i>
-        <i class="fa-brands fa-youtube"></i>
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-linkedin-in"></i>
-        <i class="fa-brands fa-pinterest"></i>
+      <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+      <a href=""><i class="fa-brands fa-youtube"></i></a>
+      <a href=""><i class="fa-brands fa-instagram"></i></a>
+      <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href=""><i class="fa-brands fa-pinterest"></i></a>
         <input type="text" placeholder="search" >
       </div>
     </div>
@@ -103,3 +103,11 @@ function footer(){
 }
 
 export default footer;
+
+
+
+//  <i class="fa-brands fa-facebook-f"></i>
+//         <i class="fa-brands fa-youtube"></i>
+//         <i class="fa-brands fa-instagram"></i>
+//         <i class="fa-brands fa-linkedin-in"></i>
+//         <i class="fa-brands fa-pinterest"></i>

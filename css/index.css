@@ -56,13 +56,14 @@
     border: none;
     outline: none;
     background-color: #bdf300;
-   
 }
 #navbar>div:last-child>p{
     padding: 8px 9px;
     font-size: 13px;
     font-weight: bold;
-   
+}
+#navbar>div:last-child>p>a{
+  color: #525c69;
 }
 #navbar>div:last-child>p>a:hover{
     color: #54B3FC;
@@ -132,19 +133,38 @@
 }
 #show_feature div #btn a{
     text-decoration: none;
-    color: rgb(51, 48, 48);
+    color: rgb(12, 11, 11);
 }
 
 #show_feature div:last-child{
-    width: 60%;
-    height: auto;
-
-    margin: auto;
-}
-#show_feature div:last-child >img{
     width: 90%;
-    height: 80%;
+   background-image: url("https://www.bitrix24.in/upload/optimizer/converted/images/content_en/screens/main/header_banner/hr.1366w.png.webp?1658307907000");
+   background-size:85% 90% ;
+   background-repeat: no-repeat;
+   margin-top: 15px;
+   margin-left: 20px;
+   animation: changeimage 10s linear infinite;
 }
+@keyframes changeimage {
+   0%{
+    background-image: url("https://www.bitrix24.in/upload/optimizer/converted/images/content_en/screens/main/header_banner/hr.1366w.png.webp?1658307907000");
+   }
+   
+    23%{
+      background-image: url("https://www.bitrix24.in/upload/optimizer/converted/images/content_en/screens/main/header_banner/sites.1366w.png.webp?1658307906000");
+     }
+     48%{
+      background-image: url("https://www.bitrix24.in/upload/optimizer/converted/images/content_en/screens/main/header_banner/hr.1366w.png.webp?1658307907000");
+     }
+     73%{
+      background-image: url("https://www.bitrix24.in/upload/optimizer/converted/images/content_en/screens/main/header_banner/workspace.1366w.png.webp?1658307903000");
+     }
+     100%{
+      background-image: url("https://www.bitrix24.in/upload/optimizer/converted/images/content_en/screens/main/header_banner/workspace.1366w.png.webp?1658307903000");
+     }
+}
+
+
 #show_feature div li{
     color:  black;
     margin-top:10px ;
@@ -172,6 +192,263 @@
    color: rgba(255, 255, 255, 0.911);
    font-weight: bold;
 }
+#box2 p{
+    padding: 0 20px;
+}
+#box2>p>i{
+  padding-right: 7px;
+  font-size: 24px;
+}
+#box2>p>span{
+  color: #1f55eb;
+  font-weight: bold;
+  padding: 5px;
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+/* *************************** */
+
+#body {
+    margin: auto;
+    width: 70%;
+    margin-top: 50px;
+  }
+  #subhead {
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #select {
+    margin-left: 10px;
+    font-size: 20px;
+    width: 170px;
+    height: 50px;
+    border: 3px solid #84dcf8;
+    border-radius: 25px; 
+  }
+  #subhead > div:nth-child(2) {
+    display: flex;
+    /* border: 1px solid; */
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  #subhead > div:nth-child(2) > div {
+    border: 3px solid #84dcf8;
+    height: 50px;
+    width: 170px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* ------------------------------ */
+  #columns {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+  }
+  .table {
+    width: 320px;
+    height: auto;
+  }
+  .courseType {
+    background-color: #e4f3a5;
+    margin: auto;
+    padding: 0 5px;
+    padding-top: 20px;
+    display: block;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  .courseType > p {
+    font-size: 11px;
+    color: #9eaaad;
+    padding-top: 15px;
+  }
+  .users {
+    background-color: #f5fdd6;
+    margin: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    /* border: 1px solid; */
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .flameflex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .flameflex > div {
+    padding-top: 5px;
+    text-align: center;
+    line-height: 15px;
+  }
+  .flame {
+    height: 30px;
+    width: 20px;
+  }
+  .green {
+    margin-top: 30px;
+    text-align: center;
+    color: #7c9b00;
+    font: 18px;
+  }
+  .payment {
+    background-color: #a3cd00;
+    margin: auto;
+    width: 60%;
+    height: 45px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: white;
+    margin-top: 100px;
+    font-weight: 550;
+  }
+  .data {
+    text-align: center;
+    margin-top: 20px;
+    color: #00446b;
+    font-weight: 800;
+    font-size: 20px;
+  }
+  .hrline {
+    background-color: #e4f3a5;
+    margin: auto;
+    height: 2px;
+    width: 70%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .price {
+    color: #9eaaad;
+    font-size: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 550;
+    text-align: center;
+    text-decoration: line-through;
+  }
+  .alluser {
+    color: #016abe;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 550;
+    margin-bottom: -20px;
+    margin-top: 5px;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+  }
+  .blue {
+    color: #016abe;
+    font-size: 18px;
+    text-align: center;
+  }
+  span {
+    background-color: #e4f3a5;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  .bluehead {
+    background-color: #caf0fc;
+  }
+  .userblue {
+    background-color: #e7f9ff;
+  }
+  .bluepayment {
+    background-color: #21bdee;
+  }
+  .hrlineblue {
+    background-color: #21bdee;
+    margin-bottom: 30px;
+  }
+  .list > li {
+    padding-left: 50px;
+    /* border:1px solid; */
+    color: #9eaaad;
+    font-size: 12px;
+    line-height: 25px;
+    font-weight: 500;
+  }
+  .collab {
+    padding-left: 30px;
+    margin-top: 10px;
+    font-weight: 550;
+  }
+  .collab:hover,
+  .list > li:hover {
+    background-color: #21bdee;
+    border-radius: 15px;
+  }
+  .greenhover:hover {
+    background-color: #e4f3a5;
+    border-radius: 15px;
+  }
+  .greenlist > li:hover {
+    background-color: #e4f3a5;
+    border-radius: 15px;
+  }
+  
+  #renew > div {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .archived {
+    border: 3px solid #84dcf8;
+    height: 50px;
+    width: 170px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #plans > a {
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    color: #4a74b5;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  #save {
+    margin-top: 35px;
+    margin-bottom: 60px;
+  }
+  #save > div {
+    background-color: #21bdee;
+    margin: auto;
+    width: 25%;
+    height: 40px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+
+
+
+/* ******************************* */
 #last_text{
     font-size: 27px;
     text-align: center;
