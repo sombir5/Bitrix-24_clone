@@ -6,8 +6,9 @@
 }
 #maindiv {
   width: 100%;
-  height: 710px;
+  height: 100%;
   display: flex;
+  /* flex-direction: row; */
   /* border: 3px solid; */
 }
  #card1 {
