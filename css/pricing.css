@@ -124,6 +124,7 @@
   color: white;
   margin-top: 100px;
   font-weight: 550;
+  cursor: pointer;
 }
 .data {
   text-align: center;
@@ -248,4 +249,9 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#save > div>a{
+  text-decoration: none;
+  color: white;
 }
