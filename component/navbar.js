@@ -8,16 +8,16 @@ function navbar(){
   <div>
     <ul>
       <li><a href="./tools.html">TOOLS</a></li>
-      <li><a href="#">PRICING</a></li>
+      <li><a href="./pricing.html">PRICING</a></li>
       <li><a href="#">SOLUTION</a></li>
       <li><a href="#">PARTENERS</a></li>
       <li><a href="./Apps.html">APPS</a></li>
-      <li><a href="#">BLOG</a></li>
+      <li><a href="./Blog.html">BLOG</a></li>
       <li><a href="#">SUPPORT</a></li>
     </ul>
   </div>
   <div>
-    <button><a href="#">START FOR FREE</a></button>
+    <button><a href="./signup.html">START FOR FREE</a></button>
     <p>
       <a href="login.html"><i class="fa-solid fa-user"></i> LOG IN</a>
     </p>
