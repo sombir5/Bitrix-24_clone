@@ -167,7 +167,7 @@
 span {
   background-color: #e4f3a5;
 }
-a {
+.payment>a {
   text-decoration: none;
   color: white;
 }
