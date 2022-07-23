@@ -184,10 +184,13 @@
     height: 85px;
     background-color: #54B3FC;
     display: flex;
-    color: white;
-    font-weight: bold;
     justify-content: center;
     align-items: center;
+    }
+#box2>p{
+   padding: 0 20px;
+   color: rgba(255, 255, 255, 0.911);
+   font-weight: bold;
 }
 #box2 p{
     padding: 0 20px;
@@ -225,7 +228,7 @@
     width: 170px;
     height: 50px;
     border: 3px solid #84dcf8;
-    border-radius: 25px;
+    border-radius: 25px; 
   }
   #subhead > div:nth-child(2) {
     display: flex;
