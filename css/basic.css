@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, "Helvetica Neue", Verdana, "Helvetica CY",
+      "Nimbus Sans L", sans-serif;
+  }
+  #header {
+    background-color: #38b0f2;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 150px;
+  }
+  #header > div {
+    margin-left: 150px;
+    font-size: 45px;
+    color: white;
+  }
+  #details{
+    margin: 30px 0;
+    display: grid;
+    row-gap: 30px;
+  }
+  .billdetails{
+    margin: auto;
+    width: 60%; 
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+
+}
+#timedetail{
+  margin-left: 0;
+}
+#basic{
+  margin-left: 50%;
+}
+.bill{
+  margin: auto;
+  width: 60%; 
+  display: flex;
+  align-items: center;
+
+}
+.time{
+  width: 15%;
+}
+.combineprice{
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+}
+.costprice>h4{
+  width: 200px;
+}
+.buy{
+  margin-left: 100%;
+  background-color: #bdf300;
+border-radius: 10px;
+color: white;
+font-size: 12px;
+padding: 3px 10px;
+text-decoration: none;
+cursor: pointer;
+}
+p{
+  font-size: 12px;
+}
+h4{
+  font-size: 20px;
+  font-weight: 500;
+  color: #38b0f2;
+}
+.specialcost{
+  display:flex;
+  justify-content: space-evenly;
+}
+.pricethrough{
+  width: 100px;
+  text-decoration: line-through;
+}
+.bbuy{
+  margin-left: 30%;
+}
+#pprice{
+  margin-left: 180px;
+}
+
+
+  
