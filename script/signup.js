@@ -55,3 +55,9 @@ let clicking=()=>{
 }
 
 document.querySelector('#registr').addEventListener('click',clicking)
+
+let logging=()=>{
+    window.location.href='login.html';
+}
+
+document.querySelector('#logbtn').addEventListener('click',logging)
