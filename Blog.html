@@ -6,101 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
-    <style>
-        * {
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        }
-
-        #blog {
-            width: 100%;
-            height: 135px;
-            border: 1 px solid red;
-            background-color: rgb(81, 173, 209);
-            color: white;
-
-        }
-
-        #blog>h2 {
-            margin-left: 260px;
-            padding-top: 40px;
-            font-size: 52px;
-            font-weight: 100;
-            font-family: sans-serif;
-        }
-
-        #form {
-            display: flex;
-            margin-top: 65px;
-            justify-content: space-around;
-        }
-
-        #search {
-            height: 45px;
-            width: 25%;
-        }
-
-        #select {
-            height: 45px;
-            width: 18%;
-
-        }
-        #main{
-          width: 65%;
-          height: 600px;
-          display: grid;
-          grid-template-columns: repeat(2,1fr);
-          gap:5% ;
-          margin: auto;
-          margin-top: 70px;
-          margin-left: 220px;
-          margin-right:300px ;
-          
-        }
-        #m1{
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        }
-        #main img{
-            width:100% ;
-        }
-        #main div{
-            width: 100%;
-            height: 600px;
-            margin: auto;
-            
-        }
-        #main h2{
-          width:80%;  
-          font-weight:normal;
-          font-size: 30px;
-          margin-left:20px ;
-          font-family: sans-serif;
-        }
-        #main p{
-            width:80% ;
-            margin-left:20px ;
-            line-height:27px ;
-            font-size: 18px;
-            font-weight:100;
-            color:grey ;
-            font-family: sans-serif;
-        }
-        #main button{
-            width: 30%;
-            height:30px ;
-            border-radius:17px ;
-            margin-left:20px ;
-        }
-        #main2{
-            width:100% ;
-            height:100px ;
-            border:1 px solid red ;
-        }
-        
-
-    </style>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/Blog.css">
+    <script src="https://kit.fontawesome.com/f91f5d8c4b.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+    <nav id="navbar"></nav>
+
     <div id="blog">
         <h2>Blogs</h2>
     </div>
@@ -123,55 +36,118 @@
             <option value="">updates</option>
         </select>
     </div>
+
     <div id="main">
         <div id="m1">
-            <img src="https://d57439wlqx3vo.cloudfront.net/iblock/731/7317ae0442c9288c0a1573b1875f66ea/015f1951d5498dc8a503321a2500dfb0.jpg?1658307647004" alt="">
+            <img src="https://d57439wlqx3vo.cloudfront.net/iblock/731/7317ae0442c9288c0a1573b1875f66ea/015f1951d5498dc8a503321a2500dfb0.jpg?1658307647004"
+                alt="">
             <h2>Important Pricing Updates after August 1, 2022</h2>
-            <p>There are important updates coming to Bitrix24 cloud subscriptions on August 1, 2022 and introduction to a new lineup of the Bitrix24 Enterprise cloud plans.</p>
+            <p>There are important updates coming to Bitrix24 cloud subscriptions on August 1, 2022 and introduction
+                to
+                a new lineup of the Bitrix24 Enterprise cloud plans.</p>
             <div id="btn">
-            <button>read more</button>
-            <p>Bitrix24 tips and updates</p>
+                <button>read more</button>
+                <p>Bitrix24 tips and updates</p>
             </div>
         </div>
 
         <div id="m1">
-            <img src="https://d57439wlqx3vo.cloudfront.net/iblock/1e1/1e17d5501559437e26ca9816d0e66288/523cd25633fcc37b8184e1455982ddde.jpg?1658307647004" alt="">
+            <img src="https://d57439wlqx3vo.cloudfront.net/iblock/1e1/1e17d5501559437e26ca9816d0e66288/523cd25633fcc37b8184e1455982ddde.jpg?1658307647004"
+                alt="">
             <h2>Bitrix24 SCRUM Guide</h2>
-            
-            <p>Scrum is one of the most widely used Agile-based frameworks and - wouldn’t you know it - we have it right here in Bitrix24!</p>
+
+            <p>Scrum is one of the most widely used Agile-based frameworks and - wouldn’t you know it - we have it
+                right
+                here in Bitrix24!</p>
             <div>
-            <button>read more</button>
-            <p>Bitrix24 tips and updates</p>
-        </div>
+                <button id="BTN">read more</button>
+                <p>Bitrix24 tips and updates</p>
+            </div>
         </div>
 
         <div id="m1">
-            <img src="https://d57439wlqx3vo.cloudfront.net/iblock/a4b/a4b3bc928ec0b6a07e11eeeb7caa2cb8/827ac6fc816cc0ea085a833ba8efa986.jpg?1658307647004" alt="">
+            <img src="https://d57439wlqx3vo.cloudfront.net/iblock/a4b/a4b3bc928ec0b6a07e11eeeb7caa2cb8/827ac6fc816cc0ea085a833ba8efa986.jpg?1658307647004"
+                alt="">
             <h2>Set Up An Efficient Inventory Management System</h2>
-            <p>To be able to manage your inventory effectively you need to set up your inventory management system properly. Be sure that you always have the right products in the right quantity, and that they are sold on time.</p>
-           
+            <p>To be able to manage your inventory effectively you need to set up your inventory management system
+                properly. Be sure that you always have the right products in the right quantity, and that they are
+                sold
+                on time.</p>
+
             <button>read more</button>
         </div>
 
-          <div id="m1">
-            <img src="https://d57439wlqx3vo.cloudfront.net/iblock/48f/48f1c9528aaeb3518e9c13f4eb6720b6/f78fcf2eab92fb20dc26dbef1f4afb86.jpg?1658307647004" alt="">
+        <div id="m1">
+            <img src="https://d57439wlqx3vo.cloudfront.net/iblock/48f/48f1c9528aaeb3518e9c13f4eb6720b6/f78fcf2eab92fb20dc26dbef1f4afb86.jpg?1658307647004"
+                alt="">
             <h2>New In Inventory Management</h2>
-            <p>Meet new big update for Inventory Management. New settings page, enable Inventory Management option, print Inventory Management documents and more.</p>
-           <button>read more</button>
-           </div>
-           <!-- </div> -->
+            <p>Meet new big update for Inventory Management. New settings page, enable Inventory Management option,
+                print Inventory Management documents and more.</p>
+            <button id="BTN">read more</button>
+        </div>
+    </div>
 
-            <div id="main2">
-            <div id="m2">
-            <h2>Free. Unlimited. Online</h2>
-            <p>Bitrix24 is a place where everyone can communicate, collaborate on tasks and projects, manage clients and do much more.</p>
-            <button>Register free</button>
-          </div>
+    <div id="free">
+        <h2>Free. Unlimited. Online</h2>
+        <p>Bitrix24 is a place where everyone can communicate, collaborate on tasks and projects, manage clients and
+            do much more.</p>
+        <button>Register free</button>
+    </div>
 
-          </div> 
+    <div id="CRM">
 
+        <div id="c1">
+            <img src="https://d57439wlqx3vo.cloudfront.net/iblock/72e/72e3603147b8105dd32e5f7e90a169c7/e0c848de0c05449cf07fd72a49f93b15.jpg?1658307647004"
+                alt="">
+            <h2>CRM Today 6th Webinar: Introduction to CRM marketing</h2>
+            <p>We are continuing our Webinar series CRM Today with Vlad and Kate! Our 6th episode is dedicated to CRM
+                marketing.</p>
+            <div>
+                <button>read more</button>
+                <!-- <p id="Plast">Webinars</p> -->
+            </div>
+        </div>
 
+        <div id="c1">
+            <img src="https://d57439wlqx3vo.cloudfront.net/iblock/50f/50fab9a0cba7b9ce3e70a3603a4450f0/eb7e8f5049ee4f75a7bbdee3a99a9df5.jpg?1658307647004"
+                alt="">
+            <h2>Connect MS Outlook To Bitrix24 Calendar</h2>
+            <p> Keep track of your events and meetings in Bitrix24 calendar. Synchronize Bitrix24 Calendar with MS
+                Outlook.</p>
+            <div>
+                <button id="BTN1">read more</button>
 
+            </div>
+        </div>
+
+        <div id="c1">
+            <img src="https://d57439wlqx3vo.cloudfront.net/iblock/277/2774f076cce6c3bf07f8623fdbc81ee2/0e468ea7ba3adf76ee2ffaeb18b19a92.jpg?1658307647004"
+                alt="">
+            <h2>Connect Bitrix24 Online Store to Telegram</h2>
+            <p>Telegram is one of the fastest growing messaging platforms gaining huge popularity among businesses
+                worldwide. And it can be used both for marketing and sales. Here is where new Bitrix24 Online Store and
+                Telegram integration comes in handy.</p>
+            <div>
+                <button>read more</button>
+
+            </div>
+        </div>
+
+        <div id="c1">
+            <img src="https://d57439wlqx3vo.cloudfront.net/iblock/0c3/0c3601d2098c48a41b2e3c895c59cac1/2ae32fb949b1b62c371cce11879b6384.jpg?1658307647004"
+                alt="">
+            <h2>Bitrix24 and Google Calendar Sync</h2>
+            <p>If you use Google Calendar on your mobile device, let your phone calendar sync with Bitrix24.</p>
+            <div>
+                <button id="BTN2">read more</button>
+                <!-- <p id="Plast"> Bitrix24 tips and updates</p> -->
+            </div>
+        </div>
+    </div>
+    </div>
+    <footer class="footer"></footer>
 </body>
 
 </html>
+
+<script src="./script/Blog.js" type="module"></script>
