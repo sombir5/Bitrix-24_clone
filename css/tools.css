@@ -47,6 +47,8 @@ h1 {
 #flag {
   background-color: #3baaf1;
   margin-top: 2px;
+  position: sticky;
+  top: 70px;
   height: 100px;
   display: flex;
   align-items: center;

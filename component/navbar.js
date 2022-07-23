@@ -7,11 +7,11 @@ function navbar(){
   </div>
   <div>
     <ul>
-      <li><a href="#">TOOLS</a></li>
-      <li><a href="#">PRICING</a></li>
+      <li><a href="./tools.html">TOOLS</a></li>
+      <li><a href="./pricing.html">PRICING</a></li>
       <li><a href="#">SOLUTION</a></li>
       <li><a href="#">PARTENERS</a></li>
-      <li><a href="#">APPS</a></li>
+      <li><a href="./Apps.html">APPS</a></li>
       <li><a href="#">BLOG</a></li>
       <li><a href="#">SUPPORT</a></li>
     </ul>
@@ -19,10 +19,10 @@ function navbar(){
   <div>
     <button><a href="#">START FOR FREE</a></button>
     <p>
-      <a href=""><i class="fa-solid fa-user"></i> LOG IN</a>
+      <a href="login.html"><i class="fa-solid fa-user"></i> LOG IN</a>
     </p>
     <p>
-      <a href=""> <i class="fa-solid fa-earth-asia"></i> EN</a>
+      <a href="#"> <i class="fa-solid fa-earth-asia"></i> EN</a>
     </p>
   </div>`
 };
