@@ -32,12 +32,7 @@ class Signing{
         } return true
     }
     validatepwd(pwd){
-        for(let i=0;i<userdata.length;i++){
-            if(userdata[i].upwd==pwd){
-                return false
-            }
-            
-        }return true
+        return true
     }
 }
 
@@ -57,7 +52,7 @@ let clicking=()=>{
 document.querySelector('#registr').addEventListener('click',clicking)
 
 let logging=()=>{
-    window.location.href='login.html';
+    window.location.href='login.html'
 }
 
 document.querySelector('#logbtn').addEventListener('click',logging)
