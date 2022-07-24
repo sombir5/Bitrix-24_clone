@@ -8,6 +8,7 @@ class Login{
         if(crosscheck){
             alert('Login success')
             console.log('Login success')
+            window.location.href='index.html'
         }else{
             console.log('Login fail')
             alert('wrong credentials')
