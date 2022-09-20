@@ -6,14 +6,9 @@ class Login{
         console.log('im inside')
         let crosscheck=this.validateemail(email)&&this.validatepwd(pwd)
         if(crosscheck){
-            // this.email=email;
-            // this.pwd=pwd;
-            
-            // userdata.push(this)
-            // localStorage.setItem("user_data",JSON.stringify(userdata))
             alert('Login success')
-            // window.location.href='login.html'
             console.log('Login success')
+            window.location.href='index.html'
         }else{
             console.log('Login fail')
             alert('wrong credentials')
@@ -21,7 +16,7 @@ class Login{
     }
     validateemail(email){
         for(let i=0;i<userdata.length;i++){
-            if(userdata[i].email==email){
+            if(userdata[i].uemail==email){
                 return true
             }
             
@@ -29,7 +24,7 @@ class Login{
     }
     validatepwd(pwd){
         for(let i=0;i<userdata.length;i++){
-            if(userdata[i].pwd==pwd){
+            if(userdata[i].upwd==pwd){
                 return true
             }
             
@@ -48,3 +43,9 @@ let clicking=()=>{
 }
 
 document.querySelector('#registr').addEventListener('click',clicking)
+
+let clicking1=()=>{
+    window.location.href='signup.html'
+}
+
+document.querySelector('#signbtn').addEventListener('click',clicking1)
